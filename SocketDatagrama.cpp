@@ -70,8 +70,6 @@ int SocketDatagrama::recibeTimeout(PaqueteDatagrama &p, time_t segundos, susecon
         return a;
     }
 
-    return a;
-
 
 }
 
