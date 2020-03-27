@@ -67,6 +67,7 @@ int SocketDatagrama::recibeTimeout(PaqueteDatagrama &p, time_t segundos, susecon
         return -1;
     } else {
         cout << "Mensaje enviado corectamente ";
+        return a;
     }
 
     return a;

@@ -12,63 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5606ab39-e362-4758-b4ad-03e005fda50b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Practica12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rjfm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaqueteDatagrama.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaqueteDatagrama.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PaqueteDatagrama.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Respuesta.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Respuesta.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Respuesta.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDPractica11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketDatagrama.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketDatagrama.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketDatagrama.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solicitud.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solicitud.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solicitud.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Practica12.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makefilecliente" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makefileservidor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mensaje.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servidor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servidor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Respuesta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Respuesta.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Respuesta.o" beforeDir="false" afterPath="$PROJECT_DIR$/Respuesta.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDPractica11" beforeDir="false" afterPath="$PROJECT_DIR$/SDPractica11" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/PaqueteDatagrama.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/PaqueteDatagrama.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/PaqueteDatagrama.o" beforeDir="false" />
@@ -88,6 +35,12 @@
       <change beforePath="$PROJECT_DIR$/SDPractica11/mensaje.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/servidor" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/servidor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocketDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SocketDatagrama.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente" beforeDir="false" afterPath="$PROJECT_DIR$/cliente" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cliente.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mensaje.h" beforeDir="false" afterPath="$PROJECT_DIR$/mensaje.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor" beforeDir="false" afterPath="$PROJECT_DIR$/servidor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/servidor.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585332514496</updated>
-      <workItem from="1585332516102" duration="3221000" />
+      <workItem from="1585332516102" duration="4999000" />
     </task>
     <servers />
   </component>
@@ -147,5 +100,9 @@
     </state>
     <state x="625" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1033@0.23.1792.1033" timestamp="1585334785703" />
     <state x="625" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1036@0.23.1792.1036" timestamp="1585332731934" />
+    <state x="548" y="280" width="703" height="518" key="find.popup" timestamp="1585337225008">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="548" y="280" width="703" height="518" key="find.popup/0.23.1792.1033@0.23.1792.1033" timestamp="1585337225008" />
   </component>
 </project>
