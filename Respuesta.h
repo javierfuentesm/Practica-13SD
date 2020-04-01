@@ -8,8 +8,9 @@ class Respuesta
 public:
   Respuesta(int);
   struct mensaje *getRequest(void);
-  void sendReply(char *);
+  void sendReply(int *);
 private:
   SocketDatagrama *socketlocal;
+
 };
 #endif

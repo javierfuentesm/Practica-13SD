@@ -57,30 +57,90 @@ include CMakeFiles/Practica12.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Practica12.dir/flags.make
 
-CMakeFiles/Practica12.dir/main.cpp.o: CMakeFiles/Practica12.dir/flags.make
-CMakeFiles/Practica12.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica12.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica12.dir/main.cpp.o -c /Users/rjfm/CLionProjects/Practica12/main.cpp
+CMakeFiles/Practica12.dir/cliente.cpp.o: CMakeFiles/Practica12.dir/flags.make
+CMakeFiles/Practica12.dir/cliente.cpp.o: ../cliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica12.dir/cliente.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica12.dir/cliente.cpp.o -c /Users/rjfm/CLionProjects/Practica12/cliente.cpp
 
-CMakeFiles/Practica12.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica12.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rjfm/CLionProjects/Practica12/main.cpp > CMakeFiles/Practica12.dir/main.cpp.i
+CMakeFiles/Practica12.dir/cliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica12.dir/cliente.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rjfm/CLionProjects/Practica12/cliente.cpp > CMakeFiles/Practica12.dir/cliente.cpp.i
 
-CMakeFiles/Practica12.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica12.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rjfm/CLionProjects/Practica12/main.cpp -o CMakeFiles/Practica12.dir/main.cpp.s
+CMakeFiles/Practica12.dir/cliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica12.dir/cliente.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rjfm/CLionProjects/Practica12/cliente.cpp -o CMakeFiles/Practica12.dir/cliente.cpp.s
+
+CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.o: CMakeFiles/Practica12.dir/flags.make
+CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.o: ../PaqueteDatagrama.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.o -c /Users/rjfm/CLionProjects/Practica12/PaqueteDatagrama.cpp
+
+CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rjfm/CLionProjects/Practica12/PaqueteDatagrama.cpp > CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.i
+
+CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rjfm/CLionProjects/Practica12/PaqueteDatagrama.cpp -o CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.s
+
+CMakeFiles/Practica12.dir/Respuesta.cpp.o: CMakeFiles/Practica12.dir/flags.make
+CMakeFiles/Practica12.dir/Respuesta.cpp.o: ../Respuesta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practica12.dir/Respuesta.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica12.dir/Respuesta.cpp.o -c /Users/rjfm/CLionProjects/Practica12/Respuesta.cpp
+
+CMakeFiles/Practica12.dir/Respuesta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica12.dir/Respuesta.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rjfm/CLionProjects/Practica12/Respuesta.cpp > CMakeFiles/Practica12.dir/Respuesta.cpp.i
+
+CMakeFiles/Practica12.dir/Respuesta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica12.dir/Respuesta.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rjfm/CLionProjects/Practica12/Respuesta.cpp -o CMakeFiles/Practica12.dir/Respuesta.cpp.s
+
+CMakeFiles/Practica12.dir/SocketDatagrama.cpp.o: CMakeFiles/Practica12.dir/flags.make
+CMakeFiles/Practica12.dir/SocketDatagrama.cpp.o: ../SocketDatagrama.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practica12.dir/SocketDatagrama.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica12.dir/SocketDatagrama.cpp.o -c /Users/rjfm/CLionProjects/Practica12/SocketDatagrama.cpp
+
+CMakeFiles/Practica12.dir/SocketDatagrama.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica12.dir/SocketDatagrama.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rjfm/CLionProjects/Practica12/SocketDatagrama.cpp > CMakeFiles/Practica12.dir/SocketDatagrama.cpp.i
+
+CMakeFiles/Practica12.dir/SocketDatagrama.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica12.dir/SocketDatagrama.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rjfm/CLionProjects/Practica12/SocketDatagrama.cpp -o CMakeFiles/Practica12.dir/SocketDatagrama.cpp.s
+
+CMakeFiles/Practica12.dir/Solicitud.cpp.o: CMakeFiles/Practica12.dir/flags.make
+CMakeFiles/Practica12.dir/Solicitud.cpp.o: ../Solicitud.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Practica12.dir/Solicitud.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica12.dir/Solicitud.cpp.o -c /Users/rjfm/CLionProjects/Practica12/Solicitud.cpp
+
+CMakeFiles/Practica12.dir/Solicitud.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica12.dir/Solicitud.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rjfm/CLionProjects/Practica12/Solicitud.cpp > CMakeFiles/Practica12.dir/Solicitud.cpp.i
+
+CMakeFiles/Practica12.dir/Solicitud.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica12.dir/Solicitud.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rjfm/CLionProjects/Practica12/Solicitud.cpp -o CMakeFiles/Practica12.dir/Solicitud.cpp.s
 
 # Object files for target Practica12
 Practica12_OBJECTS = \
-"CMakeFiles/Practica12.dir/main.cpp.o"
+"CMakeFiles/Practica12.dir/cliente.cpp.o" \
+"CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.o" \
+"CMakeFiles/Practica12.dir/Respuesta.cpp.o" \
+"CMakeFiles/Practica12.dir/SocketDatagrama.cpp.o" \
+"CMakeFiles/Practica12.dir/Solicitud.cpp.o"
 
 # External object files for target Practica12
 Practica12_EXTERNAL_OBJECTS =
 
-Practica12: CMakeFiles/Practica12.dir/main.cpp.o
+Practica12: CMakeFiles/Practica12.dir/cliente.cpp.o
+Practica12: CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.o
+Practica12: CMakeFiles/Practica12.dir/Respuesta.cpp.o
+Practica12: CMakeFiles/Practica12.dir/SocketDatagrama.cpp.o
+Practica12: CMakeFiles/Practica12.dir/Solicitud.cpp.o
 Practica12: CMakeFiles/Practica12.dir/build.make
 Practica12: CMakeFiles/Practica12.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Practica12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rjfm/CLionProjects/Practica12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Practica12"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practica12.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

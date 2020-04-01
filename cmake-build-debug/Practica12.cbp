@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/rjfm/CLionProjects/Practica12/."/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -65,6 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/rjfm/CLionProjects/Practica12/."/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -80,7 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rjfm/CLionProjects/Practica12/main.cpp">
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/PaqueteDatagrama.cpp">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/PaqueteDatagrama.h">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/Respuesta.cpp">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/Respuesta.h">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/SocketDatagrama.cpp">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/SocketDatagrama.h">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/Solicitud.cpp">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/Solicitud.h">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/cliente.cpp">
+			<Option target="Practica12"/>
+		</Unit>
+		<Unit filename="/Users/rjfm/CLionProjects/Practica12/mensaje.h">
 			<Option target="Practica12"/>
 		</Unit>
 		<Unit filename="/Users/rjfm/CLionProjects/Practica12/CMakeLists.txt">

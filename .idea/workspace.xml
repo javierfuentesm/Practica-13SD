@@ -13,7 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5606ab39-e362-4758-b4ad-03e005fda50b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Respuesta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Respuesta.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Respuesta.h" beforeDir="false" afterPath="$PROJECT_DIR$/Respuesta.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Respuesta.o" beforeDir="false" afterPath="$PROJECT_DIR$/Respuesta.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11" beforeDir="false" afterPath="$PROJECT_DIR$/SDPractica11" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/PaqueteDatagrama.cpp" beforeDir="false" />
@@ -35,10 +37,24 @@
       <change beforePath="$PROJECT_DIR$/SDPractica11/mensaje.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/servidor" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SDPractica11/servidor.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocketDatagrama.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SocketDatagrama.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solicitud.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Solicitud.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solicitud.o" beforeDir="false" afterPath="$PROJECT_DIR$/Solicitud.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente" beforeDir="false" afterPath="$PROJECT_DIR$/cliente" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cliente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mensaje.h" beforeDir="false" afterPath="$PROJECT_DIR$/mensaje.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica12.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Practica12.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Practica12.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/servidor" beforeDir="false" afterPath="$PROJECT_DIR$/servidor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servidor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/servidor.cpp" afterDir="false" />
     </list>
@@ -87,7 +103,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585332514496</updated>
-      <workItem from="1585332516102" duration="4999000" />
+      <workItem from="1585332516102" duration="5507000" />
+      <workItem from="1585779758814" duration="426000" />
+      <workItem from="1585780187387" duration="4543000" />
     </task>
     <servers />
   </component>
@@ -100,9 +118,38 @@
     </state>
     <state x="625" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1033@0.23.1792.1033" timestamp="1585334785703" />
     <state x="625" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1036@0.23.1792.1036" timestamp="1585332731934" />
-    <state x="548" y="280" width="703" height="518" key="find.popup" timestamp="1585337225008">
+    <state width="1750" height="172" key="GridCell.Tab.0.bottom" timestamp="1585781426132">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1750" height="172" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1585781426132" />
+    <state width="1750" height="172" key="GridCell.Tab.0.center" timestamp="1585781426131">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1750" height="172" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1585781426131" />
+    <state width="1750" height="172" key="GridCell.Tab.0.left" timestamp="1585781426130">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1750" height="172" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1585781426130" />
+    <state width="1750" height="172" key="GridCell.Tab.0.right" timestamp="1585781426131">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state width="1750" height="172" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1585781426131" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1585780182976">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/0.23.1792.1033@0.23.1792.1033" timestamp="1585780182976" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1585780182975">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.23.1792.1033@0.23.1792.1033" timestamp="1585780182975" />
+    <state x="556" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585779763382">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="556" y="372" key="com.intellij.ide.util.TipDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1585779763382" />
+    <state x="548" y="280" width="703" height="518" key="find.popup" timestamp="1585782151951">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="548" y="280" width="703" height="518" key="find.popup/0.23.1792.1031@0.23.1792.1031" timestamp="1585782151951" />
     <state x="548" y="280" width="703" height="518" key="find.popup/0.23.1792.1033@0.23.1792.1033" timestamp="1585337225008" />
   </component>
 </project>

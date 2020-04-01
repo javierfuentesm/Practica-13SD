@@ -123,32 +123,140 @@ Practica12/fast:
 	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/build
 .PHONY : Practica12/fast
 
-main.o: main.cpp.o
+PaqueteDatagrama.o: PaqueteDatagrama.cpp.o
 
-.PHONY : main.o
+.PHONY : PaqueteDatagrama.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/main.cpp.o
-.PHONY : main.cpp.o
+PaqueteDatagrama.cpp.o:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.o
+.PHONY : PaqueteDatagrama.cpp.o
 
-main.i: main.cpp.i
+PaqueteDatagrama.i: PaqueteDatagrama.cpp.i
 
-.PHONY : main.i
+.PHONY : PaqueteDatagrama.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/main.cpp.i
-.PHONY : main.cpp.i
+PaqueteDatagrama.cpp.i:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.i
+.PHONY : PaqueteDatagrama.cpp.i
 
-main.s: main.cpp.s
+PaqueteDatagrama.s: PaqueteDatagrama.cpp.s
 
-.PHONY : main.s
+.PHONY : PaqueteDatagrama.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/main.cpp.s
-.PHONY : main.cpp.s
+PaqueteDatagrama.cpp.s:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/PaqueteDatagrama.cpp.s
+.PHONY : PaqueteDatagrama.cpp.s
+
+Respuesta.o: Respuesta.cpp.o
+
+.PHONY : Respuesta.o
+
+# target to build an object file
+Respuesta.cpp.o:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/Respuesta.cpp.o
+.PHONY : Respuesta.cpp.o
+
+Respuesta.i: Respuesta.cpp.i
+
+.PHONY : Respuesta.i
+
+# target to preprocess a source file
+Respuesta.cpp.i:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/Respuesta.cpp.i
+.PHONY : Respuesta.cpp.i
+
+Respuesta.s: Respuesta.cpp.s
+
+.PHONY : Respuesta.s
+
+# target to generate assembly for a file
+Respuesta.cpp.s:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/Respuesta.cpp.s
+.PHONY : Respuesta.cpp.s
+
+SocketDatagrama.o: SocketDatagrama.cpp.o
+
+.PHONY : SocketDatagrama.o
+
+# target to build an object file
+SocketDatagrama.cpp.o:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/SocketDatagrama.cpp.o
+.PHONY : SocketDatagrama.cpp.o
+
+SocketDatagrama.i: SocketDatagrama.cpp.i
+
+.PHONY : SocketDatagrama.i
+
+# target to preprocess a source file
+SocketDatagrama.cpp.i:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/SocketDatagrama.cpp.i
+.PHONY : SocketDatagrama.cpp.i
+
+SocketDatagrama.s: SocketDatagrama.cpp.s
+
+.PHONY : SocketDatagrama.s
+
+# target to generate assembly for a file
+SocketDatagrama.cpp.s:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/SocketDatagrama.cpp.s
+.PHONY : SocketDatagrama.cpp.s
+
+Solicitud.o: Solicitud.cpp.o
+
+.PHONY : Solicitud.o
+
+# target to build an object file
+Solicitud.cpp.o:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/Solicitud.cpp.o
+.PHONY : Solicitud.cpp.o
+
+Solicitud.i: Solicitud.cpp.i
+
+.PHONY : Solicitud.i
+
+# target to preprocess a source file
+Solicitud.cpp.i:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/Solicitud.cpp.i
+.PHONY : Solicitud.cpp.i
+
+Solicitud.s: Solicitud.cpp.s
+
+.PHONY : Solicitud.s
+
+# target to generate assembly for a file
+Solicitud.cpp.s:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/Solicitud.cpp.s
+.PHONY : Solicitud.cpp.s
+
+cliente.o: cliente.cpp.o
+
+.PHONY : cliente.o
+
+# target to build an object file
+cliente.cpp.o:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/cliente.cpp.o
+.PHONY : cliente.cpp.o
+
+cliente.i: cliente.cpp.i
+
+.PHONY : cliente.i
+
+# target to preprocess a source file
+cliente.cpp.i:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/cliente.cpp.i
+.PHONY : cliente.cpp.i
+
+cliente.s: cliente.cpp.s
+
+.PHONY : cliente.s
+
+# target to generate assembly for a file
+cliente.cpp.s:
+	$(MAKE) -f CMakeFiles/Practica12.dir/build.make CMakeFiles/Practica12.dir/cliente.cpp.s
+.PHONY : cliente.cpp.s
 
 # Help Target
 help:
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Practica12"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... PaqueteDatagrama.o"
+	@echo "... PaqueteDatagrama.i"
+	@echo "... PaqueteDatagrama.s"
+	@echo "... Respuesta.o"
+	@echo "... Respuesta.i"
+	@echo "... Respuesta.s"
+	@echo "... SocketDatagrama.o"
+	@echo "... SocketDatagrama.i"
+	@echo "... SocketDatagrama.s"
+	@echo "... Solicitud.o"
+	@echo "... Solicitud.i"
+	@echo "... Solicitud.s"
+	@echo "... cliente.o"
+	@echo "... cliente.i"
+	@echo "... cliente.s"
 .PHONY : help
 
 

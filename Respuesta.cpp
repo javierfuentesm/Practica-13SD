@@ -15,27 +15,23 @@ struct mensaje *Respuesta::getRequest(void) {
     if (recibido == -1) {
         perror("Fallo al recibir");
     }
-    //p.obtieneDatos();
-    //msgReturn.arguments=(struct mensaje*)&p.obtieneDatos();
-    //return &msgReturn;
-    //return (struct mensaje*)p.obtieneDatos();
+
     struct mensaje *msgR = (struct mensaje *) p.obtieneDatos();
 
     return (struct mensaje *) p.obtieneDatos();
 }
 
-void Respuesta::sendReply(char *respuesta) {
+void Respuesta::sendReply(int *respuesta) {
     struct mensaje msg;
     msg.messageType = 1;
     msg.requestId = 1;
     msg.operationId = 1;
-    //strcpy(msg.arguments,respuesta);
     memcpy(&msg.arguments, respuesta, sizeof(&respuesta));
 
     p.inicializaDatos((char *) &msg);
-    cout << "\nMensaje recibido" << endl;
-    cout << "Direccion: " << p.obtieneDireccion() << endl;
-    cout << "Puerto: " << p.obtienePuerto() << endl;
+    cout << "\nDeposito exitoso" << endl;
+    cout << "Cantidad" << p.obtieneDatos()<< endl;
+
     int enviado = socketlocal->envia(p);
     if (enviado == -1) {
         perror("Fallo al enviar");

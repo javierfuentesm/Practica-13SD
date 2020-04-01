@@ -21,9 +21,9 @@ Solicitud::doOperation(char *IP, int puerto, int operationId, char *arguments) {
     msg.operationId = operationId;
     memcpy(msg.arguments, arguments, sizeof(struct mensaje *));
     PaqueteDatagrama p = PaqueteDatagrama((char *) &msg, TAM_MAX_DATA, IP, puerto);
-    cout << "Datos enviados" << endl;
+ /*   cout << "Datos enviados" << endl;
     cout << "IP: " << p.obtieneDireccion() << endl;
-    cout << "Puerto: " << p.obtienePuerto() << endl;
+    cout << "Puerto: " << p.obtienePuerto() << endl;*/
     enviado = socketlocal->envia(p);
     if (enviado == -1) {
         perror("Fallo al enviar");
